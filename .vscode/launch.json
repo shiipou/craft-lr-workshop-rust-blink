@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "preLaunchTask": "${defaultBuildTask}",
+        "type": "probe-rs-debug",
+        "request": "launch",
+        "name": "Blink Execute",
+        "chip": "STM32L475VGTx",
+        "cwd": "${workspaceFolder}",
+        "flashingConfig": {
+            "flashingEnabled": true,
+            "resetAfterFlashing": true,
+            "haltAfterReset": false
+          },
+        "coreConfigs": [
+          {
+            "coreIndex": 0,
+            "rttEnabled": true,
+            "svdFile": "${workspaceFolder}/.vscode/STM32L4x5.svd",
+            "programBinary": "${workspaceFolder}/target/thumbv7em-none-eabihf/debug/blink",
+          }
+        ],
+        "consoleLogLevel": "Console"
+      }
+    ]
+  }
