@@ -1,0 +1,5 @@
+{
+    "cSpell.language": "en,fr",
+    "rust-analyzer.cargo.target": "thumbv7em-none-eabihf",
+    "rust-analyzer.check.allTargets": false
+}
