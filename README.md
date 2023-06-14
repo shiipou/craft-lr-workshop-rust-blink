@@ -372,3 +372,7 @@ L'intégration VSCode du projet est très simple. Pour prendre en charge Rust, i
 Pour voir l'état de la mémoire, de la pile et de tous les registres, il suffit d'installer l’extension `Cortex-Debug`.
 
 Le fichier `.vscode/extensions.json` contient déjà la configuration des extensions ce qui permet de simplement les installer en ouvrant le projet.
+
+Une fois l'installation complète, vous devriez pouvoir tester et déboguer très facilement :
+
+![Debug](/assets/vscode_debug.gif)
