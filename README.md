@@ -81,17 +81,17 @@ cargo generate --git https://github.com/rust-embedded/cortex-m-quickstart
 ```
 
 ```sh
-🤷   Project Name: app
-🔧   Destination: /home/snedjar/sandbox/app ...
-🔧   project-name: app ...
+🤷   Project Name: blink
+🔧   Destination: /home/snedjar/sandbox/blink ...
+🔧   project-name: blink ...
 🔧   Generating template ...
-🔧   Moving generated files into: `/tmp/app`...
+🔧   Moving generated files into: `/tmp/blink`...
 Initializing a fresh Git repository
-✨   Done! New project created /tmp/app
+✨   Done! New project created /tmp/blink
 ```
 
 ```sh
-cd app
+cd blink
 ```
 
 ### Configuration des dépendances
@@ -103,7 +103,7 @@ Modifiez le fichier `Cargo.toml` pour mettre uniquement les dépendances nécess
 authors = ["John Smith"]
 edition = "2021"
 readme = "README.md"
-name = "app"
+name = "blink"
 version = "0.1.0"
 
 [dependencies]
@@ -114,7 +114,7 @@ rtt-target = {version="0.4"}
 
 # this lets you use `cargo fix`!
 [[bin]]
-name = "app"
+name = "blink"
 test = false
 bench = false
 
@@ -299,7 +299,7 @@ L'intégration VSCode du projet est très simple. Pour prendre en charge Rust, i
             "coreIndex": 0,
             "rttEnabled": true,
             "svdFile": "${workspaceFolder}/.vscode/STM32L4x5.svd",
-            "programBinary": "${workspaceFolder}/target/thumbv7em-none-eabihf/debug/app",
+            "programBinary": "${workspaceFolder}/target/thumbv7em-none-eabihf/debug/blink",
           }
         ],
         "consoleLogLevel": "Console"
