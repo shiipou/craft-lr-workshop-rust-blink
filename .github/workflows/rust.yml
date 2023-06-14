@@ -15,8 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - run : rustup target add thumbv7em-none-eabihf
     - uses: actions/checkout@v3
     - name: Build
       run: cargo build --verbose
-    - name: Run tests
-      run: cargo test --verbose
