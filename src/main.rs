@@ -44,7 +44,6 @@ fn main() -> ! {
         led2.toggle();
         rprintln!("toggle leds"); 
         timer.delay_ms(1000_u32);
-        panic!("arf")
     }
 }
 
