@@ -30,7 +30,7 @@ Ce livre est assez complet pour se lancer en comprenant l'essentiel des particul
 
 La première chose à faire est de créer un fork de ce dépôt. Pour ce faire, rendez-vous sur le lien suivant :
 
-<https://classroom.github.com/a/VYF3szeN>
+<https://classroom.github.com/a/9kfzJ1Mm>
 
 GitHub va vous créer un dépôt contenant un fork de ce dépôt. Vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Clonez localement votre fork et ouvrez le avec Visual Studio Code.
 
