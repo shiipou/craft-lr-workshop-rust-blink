@@ -46,8 +46,7 @@
                 "probe-rs.probe-rs-debugger",
                 "marus25.cortex-debug",
                 "serayuzgur.crates",
-                "tamasfe.even-better-toml",
-                "github.vscode-pull-request-github"
+                "tamasfe.even-better-toml"
             ],
             // Set *default* container specific settings.json values on container create.
             "settings": {
@@ -71,7 +70,7 @@
                     "source.organizeImports": true
                 },
                 "editor.rulers": [
-                    120
+                    100
                 ]
             }
         }
