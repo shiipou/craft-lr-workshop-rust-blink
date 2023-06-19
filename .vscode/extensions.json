@@ -2,6 +2,9 @@
     "recommendations": [
         "rust-lang.rust-analyzer",
         "probe-rs.probe-rs-debugger",
-        "marus25.cortex-debug"
+        "marus25.cortex-debug",
+        "serayuzgur.crates",
+        "tamasfe.even-better-toml",
+        "github.vscode-pull-request-github"
     ]
 }

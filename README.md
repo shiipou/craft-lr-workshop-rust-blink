@@ -79,7 +79,7 @@ En plus de cela, vous devez avoir la bonne cible `thumbv7em-none-eabihf` et quel
 rustup update
 rustup component add llvm-tools-preview
 rustup target add thumbv7em-none-eabihf
-cargo install cargo-binutils cargo-embed cargo-flash cargo-expand cargo-generate
+cargo install cargo-binutils probe-rs-debugger cargo-embed cargo-flash cargo-expand cargo-generate
 ```
 
 Sous Linux, il est possible que vous ayez besoin d'ajouter quelques dépendances pour que ces commandes puissent aller jusqu'au bout. Par exemple, sur une Ubuntu, vous devez installer les paquets `gdb-multiarch`, `libudev`, `libudev-dev`, `libssl-dev` et `pkg-config`.
