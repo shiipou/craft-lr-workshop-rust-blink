@@ -61,7 +61,7 @@ fn EXTI15_10() {
   let userbtn = gpioc.pc13.into_pull_up_input(&mut gpioc.moder, &mut gpioc.pupdr);
 
   // Enable the interrupt in the NVIC
-  cortex_m::interrupt::free(|cs| {
+  cortex_m::interrupt::free(|_cs| {
     if userbtn.is_low() {
       led3.set_low();
     } else {
